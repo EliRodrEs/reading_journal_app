@@ -1,5 +1,6 @@
 <template>
-  <q-drawer :model-value="leftDrawerOpen" @update:model-value="updateLeftDrawer" show-if-above bordered>
+  <q-drawer :model-value="leftDrawerOpen" @update:model-value="updateLeftDrawer" show-if-above bordered
+    class="bg-secondary">
     <q-list>
       <q-item-label header>
         Essential Links
