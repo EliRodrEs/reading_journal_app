@@ -1,6 +1,5 @@
 <template>
-  <q-page class="row flex">
-    <book-case />
+  <q-page class="row flex p-8 gap-4">
     <book-case />
   </q-page>
 </template>
